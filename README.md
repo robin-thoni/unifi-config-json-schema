@@ -2,7 +2,7 @@
 
 I see [people](https://community.ui.com/questions/How-do-I-test-my-config-gateway-json-file/b477ab84-6db5-425e-ab73-70391896bee9), and even [the official Ubiquiti doc](https://help.ui.com/hc/en-us/articles/215458888-UniFi-USG-Advanced-Configuration-Using-config-gateway-json) telling others to validate their `config.gateway.json` file with something as simple as `python -m json.tool config.gateway.json`. The problem with this is that it _simply_ checks for JSON syntax, not for the content itself. On the opposite side, a JSON schema allows you to check the _content_ of your JSON and decreases your chances of submitting a buggy config that will result in a provision loop.
 
-# Get
+# Get it
 
 You can get the schema I generated from my hardware/version (see **Issues** below) [here](schemas/schema.usg-3p.4.4.56.yaml).
 
